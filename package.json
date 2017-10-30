@@ -1,0 +1,17 @@
+{
+  "name": "Twitch-to-Discord",
+  "version": "1.0.0",
+  "description": "Send Twitch Followers to Discord",
+  "main": "app.js",
+  "repository": "https://github.com/TimothyCole/Twitch-Followers-to-Discord",
+  "author": "Timothy Cole",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "request": "^2.83.0",
+    "twitchwebsub": "^1.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
